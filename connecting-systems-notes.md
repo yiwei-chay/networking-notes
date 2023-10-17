@@ -1,1 +1,3 @@
-# connecting-systems-notes
+# Virtual Private Cloud
+
+### What is a Virtual Private Cloud?
