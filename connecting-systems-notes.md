@@ -10,4 +10,7 @@ In a public cloud, resources such as servers and storage are owned and operated 
 - Lower costs
 - High reliability
 - Scalability
+- No maintenance
+
+A private cloud, on the other hand, are services offered either over the Internet or a private internal network. Only selected users instead of the general public are allowed to use this service. Private clouds gives businesses the benefits of hosting in a public cloud - such as scalability and elasticity. It also provide additional benefits including higher level of security and privacy through both company firewalls and internal hosting, ensuring that sensitive data will not be accessible to third-party providers. However, one major drawback is that it requires the same management and maintenance expenses as traditional datacenter ownership as companies are accountable to managing the private cloud. 
 
