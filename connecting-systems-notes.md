@@ -27,5 +27,11 @@ IP subnets are a range of addresses reserved for VPC users, dividing part of the
 LAN (local area network) is a group of computing devices that are connected together without the need of the internet. It is a way of separating the VPC from the public cloud via the second layer of the OSI model.
 
 3. VPN (virtual private network)  
-VPN traffic passes through publicly shared internet infrastructure but uses encryption to create a private network above the public network, and is not visible to anyone. 
+VPN traffic passes through publicly shared internet infrastructure but uses encryption to create a private network above the public network, and is not visible to anyone.
+
+### OSI model
+The OSI model is a universal language for computer networking. It splits the communication system into 7 abstract layers, each handling a specific job and communicates with the layers above and below itself.
+
+<img width="1003" alt="OSI-model" src="https://github.com/yiwei-chay/networking-notes/assets/146081571/f8fdbdee-97a5-48e9-a0a0-1c7054b6ca59">
+
 
