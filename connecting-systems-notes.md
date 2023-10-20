@@ -21,7 +21,7 @@ A virtual private cloud (VPC) is a private cloud within a public cloud; no one e
 ## How does VPC work?
 VPC runs on shared infrastructure like a public cloud. It offers a level of isolation between cloud customers sharing resources, achieved through several methods:
 1. IP Subnets  
-IP subnets are a range of addresses reserved for VPC users, dividing part of the network for private use. They are not accessible via the public internet and are not publicly visible.
+IP subnets are a range of addresses reserved for VPC users, dividing part of the network for private use. They are not accessible via the public internet and are not publicly visible. Subnets partitions the networks through the third layer of the OSI model (further explored in the section below).
 
 2. VLAN  
 LAN (local area network) is a group of computing devices that are connected together without the need of the internet. It is a way of separating the VPC from the public cloud via the second layer of the OSI model.
@@ -30,7 +30,7 @@ LAN (local area network) is a group of computing devices that are connected toge
 VPN traffic passes through publicly shared internet infrastructure but uses encryption to create a private network above the public network, and is not visible to anyone.
 
 ### OSI model
-The OSI model is a universal language for computer networking. It splits the communication system into 7 abstract layers, each handling a specific job and communicates with the layers above and below itself.
+The OSI model is a universal structure for computer networking. It splits the communication system into 7 abstract layers, each handling a specific job and communicates with the layers above and below itself. The layers give engineers a better idea of how the transmittion of data works as well as the ability to narrow down problems whilst debugging. 
 
 <img width="1003" alt="OSI-model" src="https://github.com/yiwei-chay/networking-notes/assets/146081571/f8fdbdee-97a5-48e9-a0a0-1c7054b6ca59">
 
