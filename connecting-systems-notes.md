@@ -16,7 +16,7 @@ A private cloud, on the other hand, are services offered either over the Interne
 
 A virtual private cloud (VPC) is a private cloud within a public cloud; no one else shares the VPC with the VPC customer. It is a unique combination of a public and private cloud. It offers services by generating an isolated section within a public cloud. This segmented region of the public cloud functions as a lone private cloud model and renders services observed in private cloud deployments. Through VPC, companies have benefits of enhanced privacy over their private cloud models and save on costs related to public cloud deployment. However, some weaknesses of VPC includes:
 - Restrictive customisation
-- Outage problems: VPC architecture is prone to outages and failures
+- Outage problems: VPC architecture is prone to outages and failures, **due to customers' customisations on the VPC**
 
 ## How does VPC work?
 VPC runs on shared infrastructure like a public cloud. It offers a level of isolation between cloud customers sharing resources, achieved through several methods:
