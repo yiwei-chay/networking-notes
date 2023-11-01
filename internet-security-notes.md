@@ -13,6 +13,9 @@ In mTLS, both the client and the server possess a certificate and can authentica
 6. Access is granted by the server 
 7. Both parties exchange information over encrypted TLS connection
 
+![image](https://github.com/yiwei-chay/networking-notes/assets/146081571/92efa34c-b77a-4a87-897e-04055497b397)
+
+
 ## Questions
 ### How is mTLS different from what has been described in this lecture (securing websites)?
 
