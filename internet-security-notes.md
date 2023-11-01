@@ -20,7 +20,7 @@ In mTLS, both the client and the server possess a certificate and can authentica
 
 ## 2. Questions
 ### 2.1 How is mTLS different from what has been described in this lecture (securing websites)?
-mTLS is an extension of TLS; apart from the server just presenting the TLS certificate, the client in mTLS also issues a TLS certificate to establish its identity. The TLS handshake hence contains several extra steps before exchange of information takes place.
+mTLS is an extension of TLS (similar to asymmetric encryption); apart from the server just presenting the TLS certificate, the client in mTLS also issues a TLS certificate to establish its identity. The TLS handshake hence contains several extra steps before exchange of information takes place.
 
 ### 2.2 Where is mTLS frequently used?
 mTLS is more frequently used on a smaller scale - for individual organisations who employ a Zero Trust approach to network security. The Zero Trust approach does not trust any user, device, or request. mTLS allows authenticating users and verifying devices every time they try to request to access any point in the network.
